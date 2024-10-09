@@ -1,0 +1,19 @@
+# Definição do número de classes e os nomes das classes
+nc: 12
+names: ['big bus', 'big truck', 'bus-l-', 'bus-s-', 'car', 'mid truck', 'small bus', 'small truck', 'truck-l-', 'truck-m-', 'truck-s-', 'truck-xl-']
+
+# Diretório raiz do dataset
+path: C:/Users/dMelo/Desktop/IA_yolo-v8/datasets/vehicles  # dataset root dir
+
+# Caminhos relativos ao 'path'
+train: train/images  # train images (relative to 'path')
+val: valid/images    # validation images (relative to 'path')
+test: test/images    # test images (relative to 'path')
+
+# Informações adicionais sobre o dataset no Roboflow
+roboflow:
+  workspace: roboflow-100
+  project: vehicles-q0x2v
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/vehicles-q0x2v/dataset/2
